@@ -4,7 +4,8 @@ git add /home/gaurav/grvDoc/cherrytree/pdf/.
 git commit -m " updated $(date)"
 echo "Want To push ?"
 read boolean
-if boolean=="yes"
+if boolean == "yes"
 then
 	git push
-fi 
+fi
+echo "Bye, We will meet again!!"
